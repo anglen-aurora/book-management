@@ -1,0 +1,711 @@
+POST http://www.forgirl.top:8080/book-management_war/clerk/query
+Content-Type: application/json
+P-Token: ac0f469bacfb4edc934b06339b6fce39
+
+{
+  "sex": "男"
+}
+
+<> 2020-12-11T035846.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T035816.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/update
+Content-Type: application/json
+P-Token: ac0f469bacfb4edc934b06339b6fce39
+
+{
+  "name": "李四",
+  "sex": "男",
+  "password": "12345678",
+  "principal": "0706127"
+}
+
+<> 2020-12-11T035808.404.html
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/update
+Content-Type: application/json
+P-Token: ac0f469bacfb4edc934b06339b6fce39
+
+{
+  "name": "李四",
+  "sex": "男",
+  "password": "12345678",
+  "principal": "0706127"
+}
+
+<> 2020-12-11T035631.404.html
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/update
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "name": "李四",
+  "sex": "男",
+  "password": "12345678",
+  "principal": "0706127"
+}
+
+<> 2020-12-11T035617.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/query
+Content-Type: application/json
+P-Token: ac0f469bacfb4edc934b06339b6fce39
+
+{
+  "sex": "男"
+}
+
+<> 2020-12-11T035446.404.html
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/query
+Content-Type: application/json
+
+{
+  "sex": "男"
+}
+
+<> 2020-12-11T035423.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/query
+Content-Type: application/json
+P-Token: ac0f469bacfb4edc934b06339b6fce39
+
+{
+  "sex": "男"
+}
+
+<> 2020-12-11T035418.404.html
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T035408.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/query
+Content-Type: application/json
+P-Token: 2481dedd621c4df68d9eeb6ad035a1c3
+
+{
+  "sex": "男"
+}
+
+<> 2020-12-11T035400.404.html
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T035315.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/query
+Content-Type: application/json
+P-Token: 2481dedd621c4df68d9eeb6ad035a1c3
+
+{
+  "sex": "男"
+}
+
+<> 2020-12-11T035120.404.html
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T035108.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/query
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "sex": "男"
+}
+
+<> 2020-12-11T034535.404.html
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/query
+Content-Type: application/json
+
+{
+  "sex": "男"
+}
+
+<> 2020-12-11T034517.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T034450.200.json
+
+###
+
+POST http://localhost:8080/clerk/query
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+
+  "sex": "男"
+}
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T034346.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+
+  "password": "123456789"
+}
+
+<> 2020-12-11T034334.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706201",
+  "password": "123456789"
+}
+
+<> 2020-12-11T034152.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706201",
+  "password": "123456789"
+}
+
+<> 2020-12-11T034133.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T034022.200.json
+
+###
+
+POST http://www.forgirl.top:8080/book-management_war/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T033913.200.json
+
+###
+
+POST http://www.forgirl.top:8080/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T020216.404.html
+
+###
+
+POST http://42.192.54.73/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T102922.200.json
+
+###
+
+POST http://localhost:8080/book/query
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "author": "张三"
+}
+
+<> 2020-12-11T101046.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T101039.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-11T100813.404.html
+
+###
+
+POST http://localhost:8080/book/update
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "title": "法外狂徒5",
+  "sequenceNum": "123456",
+  "author": "张三",
+  "createDate": "2020/12/01",
+  "category": "002艺术类"
+}
+
+<> 2020-12-11T100634.404.html
+
+###
+
+POST http://localhost:8080/book/query
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "author": "张三"
+}
+
+<> 2020-12-11T100615.404.html
+
+###
+
+POST http://localhost:8080/book/query
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "author": "张三"
+}
+
+<> 2020-12-11T100541.404.html
+
+###
+
+POST http://localhost:8080/book/query
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "sequenceNum": "45"
+}
+
+<> 2020-12-11T100438.404.html
+
+###
+
+POST http://localhost:8080/book/query
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+
+  "sequenceNum": "45"
+}
+
+<> 2020-12-11T100405.404.html
+
+###
+
+POST http://localhost:8080/book/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "title": "法外狂徒7",
+  "sequenceNum": "2513951",
+  "author": "张三",
+  "category": "哲学类"
+}
+
+<> 2020-12-11T092209.200.json
+
+###
+
+POST http://localhost:8080/book/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "title": "法外狂徒6",
+  "sequenceNum": "2513951",
+  "author": "张三",
+  "category": "哲学类"
+}
+
+<> 2020-12-11T092157.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-10T035127.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-10T035101.200.json
+
+###
+
+POST http://localhost:8080/login
+Content-Type: application/json
+Connection: close
+
+{
+  "principal": "0706200",
+  "password": "123456789"
+}
+
+<> 2020-12-10T034904.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706900",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T022857.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706100",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T094007.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706999",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T093936.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706999",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T093917.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706999",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T093725.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706999",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T093702.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706999",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T093607.500.html
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706999",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T093547.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706999",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T093504.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706999",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T093054.200.json
+
+###
+
+POST http://localhost:8080/clerk/insert
+Content-Type: application/json
+P-Token: sadac5s6dv59v5wc56dsc5sd56asf5
+
+{
+  "role": "general",
+  "principal": "0706999",
+  "password": "123456789",
+  "name": "小奥",
+  "sex": "男",
+  "email": null,
+  "createDate": "2020/12/08",
+  "comment": ""
+}
+
+<> 2020-12-10T093029.200.json
+
+###
+

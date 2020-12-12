@@ -25,7 +25,7 @@ public class LoginServlet extends HttpServlet {
         //取参
         Principal p = (Principal) ResponseUtil.getBeanFromInputStream(req.getInputStream(), Principal.class);
         String uuid = UUID.randomUUID().toString().replaceAll("-", "");
-        HashMap<String,Integer> legalUser = (HashMap<String, Integer>) req.getServletContext().getAttribute("legalUser");
+        HashMap<String,String> legalUser = (HashMap<String, String>) req.getServletContext().getAttribute("legalUser");
 
         //校对
         System.out.println(p);
@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
 
         //输出
         if (clerk != null) {
-            legalUser.put(uuid,clerk.getId());
+            legalUser.put(uuid,p.getPrincipal());
             resp.getWriter().print(ResponseUtil.generateFinalJson(new RoleMsg(uuid,clerk.getRole())));
         } else {
             resp.getWriter().print(ResponseUtil.generateFinalJson(ResultType.FAILED, "账号或密码错误"));

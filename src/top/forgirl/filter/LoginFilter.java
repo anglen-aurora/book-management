@@ -25,7 +25,7 @@ public class LoginFilter implements Filter {
         HttpServletRequest httpServletRequest = (HttpServletRequest) request;
         String requestURI = httpServletRequest.getRequestURI();
         String pass = filterConfig.getInitParameter("pass");
-        HashMap<String, Integer> legalUser = (HashMap<String, Integer>) request.getServletContext().getAttribute("legalUser");
+        HashMap<String, String> legalUser = (HashMap<String, String>) request.getServletContext().getAttribute("legalUser");
         String jSessionId = ((HttpServletRequest) request).getHeader("P-Token");
 
         if (requestURI.contains(pass) || legalUser.containsKey(jSessionId)) {

@@ -10,15 +10,15 @@ import java.util.HashSet;
 public class ContextListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        HashMap<String, Integer> map = new HashMap<>();
-        map.put("sadac5s6dv59v5wc56dsc5sd56asf5", 1);
+        HashMap<String, String> map = new HashMap<>();
+        map.put("sadac5s6dv59v5wc56dsc5sd56asf5", "0706200");
         sce.getServletContext().setAttribute("legalUser", map);
     }
 
     // 在servletContext域中设置缓存，将发放给用户的uuid和登录用户的id存储下来
 //    @Override
 //    public void contextInitialized(ServletContextEvent sce) {
-//        sce.getServletContext().setAttribute("legalUser",new HashMap<String,Integer>());
+//        sce.getServletContext().setAttribute("legalUser",new HashMap<String,String>());
 //    }
 
     // 删除servletContext域中缓存的用户登录信息
